@@ -1,0 +1,14 @@
+sudo apt-get install git
+git config --global user.name "Nome Cognome"
+git config --global user.email "email@email.com"
+
+Creare una cartella
+mkdir new
+cd new
+sudo nano file
+git add .
+git commit -m "versione 0.0"
+git tag 0.0
+git checkout 0.0
+git checkout master
+git rm file
